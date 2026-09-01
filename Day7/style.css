@@ -1,0 +1,33 @@
+#products{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+
+
+}
+.product{
+    width: 450px;
+    height: 450px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+body{
+    background-color: antiquewhite;
+}
+
+.footer{
+    background-color: rgb(164, 148, 237);
+    width: 100%;
+    margin : 10px 0 0 0;
+    
+}
+ .product .img{
+    
+    
+}
