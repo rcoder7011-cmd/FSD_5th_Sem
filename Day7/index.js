@@ -9,7 +9,7 @@ getProductData();
 const HeaderComponent = () => {
     return (
         <div className="header">
-            <h1 style={{fontSize: "3.5rem"}}>E-commerce Webpage</h1>
+            <h1 style={{fontSize: "3.5rem" , color:"white" , textAlign: "center"}}>E-commerce Webpage</h1>
         </div>
     )
 }
@@ -22,7 +22,7 @@ const ProductComponent = ({products})=>{
         {products.map((product) =>
              <div className="product">
             <img className="img" src={product.thumbnail} />
-            <h1 style={{textAlign: "center" }} >product.titile</h1>
+            <h1 style={{textAlign: "center" }} >{product.title}</h1>
             </div>
         )}
     
