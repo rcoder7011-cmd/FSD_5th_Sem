@@ -7,6 +7,9 @@ export default function App() {
     <div>
       <ImageRotator />
       <ImageSlider />
+
+
+
     </div>
   )
 }
