@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useEffect } from "react";
 
 function ImageSlider() {
   const images = [
@@ -19,6 +20,13 @@ function ImageSlider() {
       (currentIndex - 1 + images.length) % images.length
     );
   };
+
+ useEffect(() => {
+    const interval = setInterval(nextImage, 3000);
+
+    return () => clearInterval(interval);
+}, []);
+
 
   return (
     <div style={{ textAlign: "center" }}>

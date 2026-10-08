@@ -28,3 +28,7 @@ props-property
 3. pass obj as a proppass array as a prop->map()
 4. spread operator(...) -> can change data
 6. conditional , rendering ->ternary operator
+
+================
+hooks
+1. useSTate() - 
